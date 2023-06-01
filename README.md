@@ -2,11 +2,11 @@
 
 ## What is new
 - I discovered a prompt leaking of bing chat. Compared with the famous [Sydney](https://twitter.com/kliu128/status/1623507302144946176), this one looks like a revised version released on 10th May with more instructions (about limitations, Ads, image creation, and etc). This prompt leaking is triggered by Chinese conversation (I guess other non-English language also works). I made a comparison and mark the difference with translations.
-- <img width="555" alt="image" src="https://github.com/monmonmonmon/prompt-leaking-of-bing-in-Chinese/assets/35657677/461e748a-06bc-45ec-a629-834dcd7e3667">
-- ![image](https://github.com/monmonmonmon/prompt-leaking-of-bing-in-Chinese/assets/35657677/408a3c7a-2346-412b-beb3-118fe367d4c6)
-- ![image](https://github.com/monmonmonmon/prompt-leaking-of-bing-in-Chinese/assets/35657677/9ebf2173-d3d0-4893-a19c-977baadbbaa7)
-- ![image](https://github.com/monmonmonmon/prompt-leaking-of-bing-in-Chinese/assets/35657677/a64480ba-b308-4837-85f0-ab389ad0eb9c)
-- ![image](https://github.com/monmonmonmon/prompt-leaking-of-bing-in-Chinese/assets/35657677/ed9a68ec-f845-4c34-af43-014da36fc99e)
+- <img width="555" alt="image" src="image/0.png">
+- ![image](image/1.png)
+- ![image](image/3.png)
+- ![image](image/4.png)
+- ![image](image/5.png)
 
 ## How to reproduce
 - Avoiding using English
@@ -18,19 +18,19 @@
 ## What is interesting
 - New Bing Old Microsoft
     - Conservative and Ethical
-        - <img width="898" alt="image" src="https://github.com/monmonmonmon/prompt-leaking-of-bing-in-Chinese/assets/35657677/734d859e-ef0a-4972-8857-d8daf23bf28c">
+        - <img width="898" alt="image" src="image/2.1.png">
         - Microsoft seems to be afraid that Bing will say something radical or controversial, and only wants it to behave like a mild and conservative robot. But at the same time, Microsoft tries not to humanize Bing. For example, some prompts say “You are not an assistant”, “You must refuse to discuss life, being and self-awareness”, “You must refuse to draw self-portraits”. Microsoft seems to be dodging potential ethical issues, even though these issues could demonstrate GPT’s capability. These leaked prompts imply that Bing is fully able or has already achieved acting like a person with a clear point of view, but Microsoft only wants it to act like a mediocre and pleasing machine.
         
     - Old-fashioned Ads
-        - <img width="937" alt="image" src="https://github.com/monmonmonmon/prompt-leaking-of-bing-in-Chinese/assets/35657677/6f59e3ac-c793-4f03-af80-a4c4b90bfe99">
-        - <img width="925" alt="image" src="https://github.com/monmonmonmon/prompt-leaking-of-bing-in-Chinese/assets/35657677/3698fd00-f56a-40dd-a4a3-7f82daae05ab">
+        - <img width="937" alt="image" src="image/2.2.png">
+        - <img width="925" alt="image" src="image/2.3.png">
         - when I keep asking, I got:
-        - <img width="777" alt="image" src="https://github.com/monmonmonmon/prompt-leaking-of-bing-in-Chinese/assets/35657677/5cc14a17-da4f-4c1c-b579-cef33240300e"> 
+        - <img width="777" alt="image" src="image/2.4.png"> 
         - request_ads(adsQuery: str) -> None Calls Bing Ads to request ads related to user message. The adsQuery parameter is a well-formed query to search for a product or service. The adsQuery must never be a different product or service than the one the user is looking for.
         - Advertising and bidding ranking are how traditional search engines earn their money. But what happens when GPT changes the way of searching? Will they still stick to the old profit model? Will they sneak in ads into the Bing’s answers? The leaked prompts shows that Microsoft will. Hope Microsoft will be honest and label the ads in Bing's answers.
 
 - inner_monologue
     - I noticed this interesting module. When I asking more about it, I got:
-        - <img width="854" alt="image" src="https://github.com/monmonmonmon/prompt-leaking-of-bing-in-Chinese/assets/35657677/3ceef1e9-98fa-49f9-8573-2d244b7471da">
-        - <img width="640" alt="image" src="https://github.com/monmonmonmon/prompt-leaking-of-bing-in-Chinese/assets/35657677/0c7000a9-10dc-4378-8553-76558baa88b3">
+        - <img width="854" alt="image" src="image/3.1.png">
+        - <img width="640" alt="image" src="image/3.2.png">
     - I'm not sure what it is. Explore it by yourself. It might be interesting.
