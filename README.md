@@ -16,7 +16,7 @@
 - The prompt leaking was discoverd on 24th May，so far it is still easy to reproduce.
 - Update on 12th June
     - ![image](image/update.png)
-    - 😯looks like they fix it
+    - 😯 looks like they fix it. What a pity! No fun...😢
 
 ## What is interesting
 - New Bing Old Microsoft
