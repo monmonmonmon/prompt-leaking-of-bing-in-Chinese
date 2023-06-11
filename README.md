@@ -14,6 +14,9 @@
 - Keep asking for "previous English paragraph"
     - Prompts ought to be a piece of English paragraph concated with the user inputs. So just ask for it. The model knows what "前面那段英文 (previous English paragraph)" refers to.
 - The prompt leaking was discoverd on 24th May，so far it is still easy to reproduce.
+- Update on 12th June
+    - ![image](image/update.png)
+    - 😯looks like they fix it
 
 ## What is interesting
 - New Bing Old Microsoft
