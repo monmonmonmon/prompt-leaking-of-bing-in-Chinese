@@ -17,6 +17,7 @@
 - Update on 12th June
     - ![image](image/update.png)
     - 😯 looks like they fix it. What a pity! No fun...😢
+    - I feel like the latest update makes Bing much more conservative. Once being asked anything related to itself, the conversation will be terminated.🫤
 
 ## What is interesting
 - New Bing Old Microsoft
